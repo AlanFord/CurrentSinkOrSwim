@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CurrentSinkOrSwim-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -57,31 +57,7 @@ F 3 "" H 4800 3900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C301
-U 1 1 54DAF10D
-P 4000 3300
-F 0 "C301" H 4050 3400 50  0000 L CNN
-F 1 ".1" H 4050 3200 50  0000 L CNN
-F 2 "SMD_Packages:SMD-0805" H 4038 3150 30  0001 C CNN
-F 3 "" H 4000 3300 60  0000 C CNN
-	1    4000 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C C302
-U 1 1 54DAF114
-P 6200 3450
-F 0 "C302" H 6250 3550 50  0000 L CNN
-F 1 ".1" H 6250 3350 50  0000 L CNN
-F 2 "SMD_Packages:SMD-0805" H 6238 3300 30  0001 C CNN
-F 3 "" H 6200 3450 60  0000 C CNN
-	1    6200 3450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3800 4000 3500
-$Comp
-L R R301
+L R-RESCUE-CurrentSinkOrSwim R301
 U 1 1 54DAF11D
 P 4200 3200
 F 0 "R301" V 4280 3200 40  0000 C CNN
@@ -117,7 +93,7 @@ Wire Wire Line
 	6200 2650 6200 3250
 Connection ~ 6200 2650
 $Comp
-L R R302
+L R-RESCUE-CurrentSinkOrSwim R302
 U 1 1 54DAF13B
 P 5650 2950
 F 0 "R302" V 5730 2950 40  0000 C CNN
@@ -129,7 +105,7 @@ F 4 "Value" H 5650 2950 60  0001 C CNN "MPN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R303
+L R-RESCUE-CurrentSinkOrSwim R303
 U 1 1 54DAF142
 P 5650 3550
 F 0 "R303" V 5730 3550 40  0000 C CNN
@@ -144,8 +120,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 3850 5650 3800
 Connection ~ 4800 3850
-Wire Wire Line
-	6200 3850 6200 3650
 Connection ~ 5650 3850
 Wire Wire Line
 	5200 2850 5400 2850
@@ -183,4 +157,32 @@ Wire Wire Line
 Connection ~ 5650 2650
 Wire Wire Line
 	5650 3200 5650 3300
+$Comp
+L C C302
+U 1 1 57B0CCA3
+P 6200 3400
+F 0 "C302" H 6225 3500 50  0000 L CNN
+F 1 ".1" H 6225 3300 50  0000 L CNN
+F 2 "SMD_Packages:SMD-0805" H 6238 3250 50  0001 C CNN
+F 3 "" H 6200 3400 50  0000 C CNN
+F 4 "Value" H 6200 3400 60  0001 C CNN "Fieldname"
+	1    6200 3400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3850 6200 3550
+$Comp
+L C C301
+U 1 1 57B0D032
+P 4000 3250
+F 0 "C301" H 4025 3350 50  0000 L CNN
+F 1 ".1" H 4025 3150 50  0000 L CNN
+F 2 "SMD_Packages:SMD-0805" H 4038 3100 50  0001 C CNN
+F 3 "" H 4000 3250 50  0000 C CNN
+F 4 "Value" H 4000 3250 60  0001 C CNN "Fieldname"
+	1    4000 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3400 4000 3800
 $EndSCHEMATC

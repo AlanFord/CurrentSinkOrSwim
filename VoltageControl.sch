@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CurrentSinkOrSwim-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -58,7 +58,7 @@ F 4 "LMV358IDT" H 5850 3050 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R201
+L R-RESCUE-CurrentSinkOrSwim R201
 U 1 1 54DB1D0A
 P 4100 2650
 F 0 "R201" V 4180 2650 50  0000 C CNN
@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 5550 9850 5550
 $Comp
-L POT RV201
+L POT-RESCUE-CurrentSinkOrSwim RV201
 U 1 1 54DB1D22
 P 3800 3550
 F 0 "RV201" H 3800 3450 50  0000 C CNN
@@ -118,22 +118,9 @@ F 3 "" H 5150 2650 60  0000 C CNN
 	1    5150 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C201
-U 1 1 54DB1D32
-P 5150 2400
-F 0 "C201" H 5200 2500 50  0000 L CNN
-F 1 ".1" H 5200 2300 50  0000 L CNN
-F 2 "SMD_Packages:SMD-0805" H 5188 2250 30  0001 C CNN
-F 3 "" H 5150 2400 60  0000 C CNN
-	1    5150 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 1950 5150 2200
 Connection ~ 5150 1950
-Wire Wire Line
-	5150 2650 5150 2600
 Text GLabel 2650 1350 0    60   Input ~ 0
 2.7V
 Wire Wire Line
@@ -153,7 +140,7 @@ F 4 "1N4148WT-7" H 6750 3050 60  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R202
+L R-RESCUE-CurrentSinkOrSwim R202
 U 1 1 54DB1EC2
 P 8700 3450
 F 0 "R202" V 8780 3450 50  0000 C CNN
@@ -164,7 +151,7 @@ F 3 "" H 8700 3450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R203
+L R-RESCUE-CurrentSinkOrSwim R203
 U 1 1 54DB1F3A
 P 8700 4300
 F 0 "R203" V 8780 4300 50  0000 C CNN
@@ -208,4 +195,18 @@ Text Notes 9200 3200 0    60   ~ 0
 Wire Wire Line
 	4100 2900 4100 3550
 Connection ~ 4100 3550
+$Comp
+L C C201
+U 1 1 57B0D6FD
+P 5150 2350
+F 0 "C201" H 5175 2450 50  0000 L CNN
+F 1 ".1" H 5175 2250 50  0000 L CNN
+F 2 "SMD_Packages:SMD-0805" H 5188 2200 50  0001 C CNN
+F 3 "" H 5150 2350 50  0000 C CNN
+F 4 "Value" H 5150 2350 60  0001 C CNN "Fieldname"
+	1    5150 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2500 5150 2650
 $EndSCHEMATC

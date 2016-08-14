@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CurrentSinkOrSwim-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -57,7 +57,7 @@ F 3 "" H 5500 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R403
+L R-RESCUE-CurrentSinkOrSwim R403
 U 1 1 54DADC66
 P 8100 5150
 F 0 "R403" V 8180 5150 50  0000 C CNN
@@ -108,7 +108,7 @@ Wire Wire Line
 	3750 3600 5000 3600
 Connection ~ 8100 5450
 $Comp
-L POT RV401
+L POT-RESCUE-CurrentSinkOrSwim RV401
 U 1 1 54DADC9B
 P 3750 4050
 F 0 "RV401" H 3750 3950 50  0000 C CNN
@@ -137,7 +137,7 @@ Current_Sink+
 Wire Wire Line
 	8650 1500 8100 1500
 $Comp
-L R R402
+L R-RESCUE-CurrentSinkOrSwim R402
 U 1 1 54DAE31B
 P 6450 3700
 F 0 "R402" V 6530 3700 50  0000 C CNN
@@ -175,7 +175,7 @@ F 4 "FA-T220-38E" H 9350 3500 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R401
+L R-RESCUE-CurrentSinkOrSwim R401
 U 1 1 54DADC7B
 P 3750 3100
 F 0 "R401" V 3830 3100 50  0000 C CNN
