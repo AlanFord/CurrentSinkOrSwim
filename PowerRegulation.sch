@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:CurrentSinkOrSwim-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -157,18 +156,6 @@ Wire Wire Line
 Connection ~ 5650 2650
 Wire Wire Line
 	5650 3200 5650 3300
-$Comp
-L C C302
-U 1 1 57B0CCA3
-P 6200 3400
-F 0 "C302" H 6225 3500 50  0000 L CNN
-F 1 ".1" H 6225 3300 50  0000 L CNN
-F 2 "SMD_Packages:SMD-0805" H 6238 3250 50  0001 C CNN
-F 3 "" H 6200 3400 50  0000 C CNN
-F 4 "Value" H 6200 3400 60  0001 C CNN "Fieldname"
-	1    6200 3400
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 3850 6200 3550
 $Comp
@@ -185,4 +172,16 @@ F 4 "Value" H 4000 3250 60  0001 C CNN "Fieldname"
 $EndComp
 Wire Wire Line
 	4000 3400 4000 3800
+$Comp
+L CP C302
+U 1 1 57B34636
+P 6200 3400
+F 0 "C302" H 6225 3500 50  0000 L CNN
+F 1 "100" H 6225 3300 50  0000 L CNN
+F 2 "" H 6238 3250 50  0000 C CNN
+F 3 "" H 6200 3400 50  0000 C CNN
+F 4 "Value" H 6200 3400 60  0001 C CNN "Fieldname"
+	1    6200 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

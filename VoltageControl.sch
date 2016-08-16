@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:CurrentSinkOrSwim-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -62,7 +61,7 @@ L R-RESCUE-CurrentSinkOrSwim R201
 U 1 1 54DB1D0A
 P 4100 2650
 F 0 "R201" V 4180 2650 50  0000 C CNN
-F 1 "28.7K" V 4107 2651 50  0000 C CNN
+F 1 "3.3K" V 4107 2651 50  0000 C CNN
 F 2 "SMD_Packages:SMD-0805" V 4030 2650 30  0001 C CNN
 F 3 "" H 4100 2650 30  0000 C CNN
 	1    4100 2650
