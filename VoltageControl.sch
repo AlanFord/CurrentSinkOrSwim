@@ -127,18 +127,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 3050 6550 3050
 $Comp
-L DIODE D201
-U 1 1 54DB1E38
-P 6750 3050
-F 0 "D201" H 6750 3150 40  0000 C CNN
-F 1 "1N4148" H 6750 2950 40  0000 C CNN
-F 2 "SMD_Packages:SOD-523" H 6750 3050 60  0001 C CNN
-F 3 "http://www.diodes.com/datasheets/ds30396.pdf" H 6750 3050 60  0001 C CNN
-F 4 "1N4148WT-7" H 6750 3050 60  0001 C CNN "MPN"
-	1    6750 3050
-	-1   0    0    1   
-$EndComp
-$Comp
 L R-RESCUE-CurrentSinkOrSwim R202
 U 1 1 54DB1EC2
 P 8700 3450
@@ -166,7 +154,7 @@ Wire Wire Line
 	8700 3700 8700 4050
 Connection ~ 8700 3950
 Wire Wire Line
-	6950 3050 9950 3050
+	6850 3050 9950 3050
 Text HLabel 9950 3050 2    60   Output ~ 0
 Vcontrol
 Wire Wire Line
@@ -208,4 +196,19 @@ F 4 "Value" H 5150 2350 60  0001 C CNN "Fieldname"
 $EndComp
 Wire Wire Line
 	5150 2500 5150 2650
+Text Notes 3550 2700 0    60   ~ 0
+Nom. 3.5K
+$Comp
+L D D201
+U 1 1 57BA579F
+P 6700 3050
+F 0 "D201" H 6700 3150 50  0000 C CNN
+F 1 "1N4148" H 6700 2950 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-323" H 6700 3050 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds30097.pdf" H 6700 3050 50  0001 C CNN
+F 4 "Value" H 6700 3050 60  0001 C CNN "Fieldname"
+F 5 "1N4148WS-7-F" H 6700 3050 60  0001 C CNN "MPN"
+	1    6700 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
