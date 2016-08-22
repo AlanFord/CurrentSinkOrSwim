@@ -211,4 +211,5 @@ F 5 "1N4148WS-7-F" H 6700 3050 60  0001 C CNN "MPN"
 	1    6700 3050
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3800 3300
 $EndSCHEMATC
