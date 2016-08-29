@@ -817,9 +817,9 @@
   )
 
   (gr_line (start 147.828 35.814) (end 106.172 35.814) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 147.828 83.566) (end 147.828 35.814) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 106.172 83.566) (end 147.828 83.566) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 106.172 35.814) (end 106.172 83.566) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 54E12D78))
+  (gr_line (start 147.828 84.328) (end 147.828 35.814) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 106.172 84.328) (end 147.828 84.328) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 106.172 35.814) (end 106.172 84.328) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 54E12D78))
 
   (segment (start 123.047 71.628) (end 123.063 71.628) (width 0.6096) (layer B.Cu) (net 1))
   (segment (start 123.063 71.628) (end 124.841 69.85) (width 0.6096) (layer B.Cu) (net 1) (tstamp 57C19D6E))
