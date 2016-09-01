@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim.sch)
-    (date "Thursday, September 01, 2016 'PMt' 12:27:36 PM")
+    (date "Thursday, September 01, 2016 'PMt' 07:13:51 PM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -208,7 +208,7 @@
       (tstamp 57C856E6))
     (comp (ref R403)
       (value .1)
-      (footprint Resistors_SMD:R_1206)
+      (footprint Resistors_SMD:R_2512)
       (fields
         (field (name Fieldname) "Alt TH Part: AC01000001007JA100")
         (field (name MPN) RUW3216FR100CS))
@@ -419,12 +419,12 @@
   (libraries
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical CurrentSinkOrSwim-cache)
-      (uri /Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim-cache.lib))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical CurrentSinkOrSwim)
       (uri /Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim.lib))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib")))
+    (library (logical CurrentSinkOrSwim-cache)
+      (uri /Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim-cache.lib)))
   (nets
     (net (code 1) (name "/Current Control/FET_Gate")
       (node (ref R402) (pin 1))
