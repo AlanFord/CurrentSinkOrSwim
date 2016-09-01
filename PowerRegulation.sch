@@ -187,4 +187,32 @@ F 5 "PCE3867CT-ND" H 6200 3400 60  0001 C CNN "MPN"
 $EndComp
 Text Notes 5700 3300 0    60   ~ 0
 1.2V\n
+$Comp
+L TEST_1P W302
+U 1 1 57C85635
+P 5300 2550
+F 0 "W302" H 5300 2820 50  0000 C CNN
+F 1 "TEST_1P" H 5300 2750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5500 2550 50  0001 C CNN
+F 3 "" H 5500 2550 50  0000 C CNN
+	1    5300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2550 5300 2650
+Connection ~ 5300 2650
+$Comp
+L TEST_1P W301
+U 1 1 57C856E6
+P 4250 2550
+F 0 "W301" H 4250 2820 50  0000 C CNN
+F 1 "TEST_1P" H 4250 2750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4450 2550 50  0001 C CNN
+F 3 "" H 4450 2550 50  0000 C CNN
+	1    4250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2550 4250 2650
+Connection ~ 4250 2650
 $EndSCHEMATC

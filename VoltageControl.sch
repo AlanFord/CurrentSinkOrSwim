@@ -172,7 +172,7 @@ Connection ~ 4100 1950
 Wire Wire Line
 	4100 1950 5750 1950
 Wire Wire Line
-	4500 2950 4500 3550
+	4500 2750 4500 3550
 Text Notes 4650 2950 0    60   ~ 0
 0-2v
 Text Notes 7700 3950 0    60   ~ 0
@@ -212,4 +212,44 @@ F 5 "1N4148WS-7-F" H 6700 3050 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3800 3300
+$Comp
+L TEST_1P W202
+U 1 1 57C8594F
+P 6400 2750
+F 0 "W202" H 6400 3020 50  0000 C CNN
+F 1 "TEST_1P" H 6400 2950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6600 2750 50  0001 C CNN
+F 3 "" H 6600 2750 50  0000 C CNN
+	1    6400 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2750 6400 3050
+Connection ~ 6400 3050
+$Comp
+L TEST_1P W201
+U 1 1 57C859C5
+P 4500 2750
+F 0 "W201" H 4500 3020 50  0000 C CNN
+F 1 "TEST_1P" H 4500 2950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4700 2750 50  0001 C CNN
+F 3 "" H 4700 2750 50  0000 C CNN
+	1    4500 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 2950
+$Comp
+L TEST_1P W203
+U 1 1 57C85A59
+P 7200 3800
+F 0 "W203" H 7200 4070 50  0000 C CNN
+F 1 "TEST_1P" H 7200 4000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7400 3800 50  0001 C CNN
+F 3 "" H 7400 3800 50  0000 C CNN
+	1    7200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3800 7200 3950
+Connection ~ 7200 3950
 $EndSCHEMATC

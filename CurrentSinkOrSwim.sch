@@ -168,4 +168,18 @@ Wire Wire Line
 Wire Wire Line
 	6500 6000 7900 6000
 Connection ~ 7900 6000
+$Comp
+L TEST_1P W101
+U 1 1 57C85CB2
+P 7750 1050
+F 0 "W101" H 7750 1320 50  0000 C CNN
+F 1 "TEST_1P" H 7750 1250 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7950 1050 50  0001 C CNN
+F 3 "" H 7950 1050 50  0000 C CNN
+	1    7750 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1050 7750 1250
+Connection ~ 7750 1250
 $EndSCHEMATC

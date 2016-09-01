@@ -196,4 +196,46 @@ Wire Wire Line
 	4000 5450 8100 5450
 NoConn ~ 3750 4300
 NoConn ~ 9150 3500
+$Comp
+L TEST_1P W402
+U 1 1 57C8579B
+P 6650 4500
+F 0 "W402" H 6650 4770 50  0000 C CNN
+F 1 "TEST_1P" H 6650 4700 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6850 4500 50  0001 C CNN
+F 3 "" H 6850 4500 50  0000 C CNN
+	1    6650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4500 6650 4600
+Connection ~ 6650 4600
+$Comp
+L TEST_1P W403
+U 1 1 57C85818
+P 6800 3550
+F 0 "W403" H 6800 3820 50  0000 C CNN
+F 1 "TEST_1P" H 6800 3750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7000 3550 50  0001 C CNN
+F 3 "" H 7000 3550 50  0000 C CNN
+	1    6800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W401
+U 1 1 57C85856
+P 4750 3400
+F 0 "W401" H 4750 3670 50  0000 C CNN
+F 1 "TEST_1P" H 4750 3600 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4950 3400 50  0001 C CNN
+F 3 "" H 4950 3400 50  0000 C CNN
+	1    4750 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3400 4750 3600
+Connection ~ 4750 3600
+Wire Wire Line
+	6800 3550 6800 3700
+Connection ~ 6800 3700
 $EndSCHEMATC
