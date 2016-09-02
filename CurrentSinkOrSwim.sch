@@ -39,9 +39,9 @@ Title ""
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment1 "Note 1:  Use 4 standoffs, either #4 or 3mm."
+Comment2 "Note 2: One (1) jumper required for P102."
+Comment3 "Note 3: mount TO-220 package with Aavid Thermalloy Part No.4480G mounting kit."
 Comment4 ""
 $EndDescr
 $Comp
