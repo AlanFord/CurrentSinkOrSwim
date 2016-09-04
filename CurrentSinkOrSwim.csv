@@ -7,7 +7,7 @@ W102,TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
 U201,LMV358,SMD_Packages:SOIC-8-N,,LMV358IDT,
 R201,3.3K,Resistors_SMD:R_0805,
 RV201,10K,Current:P090L-02F25BR10K,,P090L-02F25BR10K,
-R202,9K,Resistors_SMD:R_0805,
+R202,9.09K,Resistors_SMD:R_0805,
 R203,1K,Resistors_SMD:R_0805,
 C201,.1,Capacitors_SMD:C_0805,,,Value
 D201,1N4148,Diodes_SMD:SOD-323,http://www.diodes.com/_files/datasheets/ds30097.pdf,1N4148WS-7-F,Value
@@ -17,13 +17,13 @@ W203,TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
 R301,0,Resistors_SMD:R_0805,,Value,
 U301,LM2931,SMD_Packages:SOIC-8-N,,LM2931D-R,
 R302,27K,Resistors_SMD:R_0805,,Value,
-R303,21.6K,Resistors_SMD:R_0805,
+R303,21.5K,Resistors_SMD:R_0805,
 C301,.1,Capacitors_SMD:C_0805,,,Value
 C302,100,Current:PCE3867CT-ND,https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C726.pdf,PCE3867CT-ND,Value
 W302,TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
 W301,TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
 R403,.1,Resistors_SMD:R_2512,,CRA2512-FZ-R100ELF,Alt TH Part: AC01000001007JA100
-Q401,BUK9575,Current:TO-220_FET-GDS_Vertical,,BUK9575-100A,127,
+Q401,PHP79NQ08LT,Current:TO-220_FET-GDS_Vertical,http://www.nxp.com/documents/data_sheet/PHP79NQ08LT.pdf,PHP79NQ08LT,127,Old Value -> BUK9575-100A,127
 RV401,10K,Current:P090L-02F25BR10K,,P090L-02F25BR10K,
 R402,1K,Resistors_SMD:R_0805,
 P1,HEATSINK,Current:FA-T220-38E,,FA-T220-38E,

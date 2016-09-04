@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim.sch</source>
-    <date>Friday, September 02, 2016 'PMt' 09:10:24 PM</date>
+    <date>Sunday, September 04, 2016 'PMt' 05:45:02 PM</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -127,7 +127,7 @@
       <tstamp>54DB1D22</tstamp>
     </comp>
     <comp ref="R202">
-      <value>9K</value>
+      <value>9.09K</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="CurrentSinkOrSwim-cache" part="R-RESCUE-CurrentSinkOrSwim"/>
       <sheetpath names="/Voltage Control/" tstamps="/54DACEE9/"/>
@@ -214,7 +214,7 @@
       <tstamp>54DAF13B</tstamp>
     </comp>
     <comp ref="R303">
-      <value>21.6K</value>
+      <value>21.5K</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="CurrentSinkOrSwim-cache" part="R-RESCUE-CurrentSinkOrSwim"/>
       <sheetpath names="/Power Regulation/" tstamps="/54DACF20/"/>
@@ -268,10 +268,12 @@
       <tstamp>54DADC66</tstamp>
     </comp>
     <comp ref="Q401">
-      <value>BUK9575</value>
+      <value>PHP79NQ08LT</value>
       <footprint>Current:TO-220_FET-GDS_Vertical</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PHP79NQ08LT.pdf</datasheet>
       <fields>
-        <field name="MPN">BUK9575-100A,127</field>
+        <field name="Fieldname">Old Value -&gt; BUK9575-100A,127</field>
+        <field name="MPN">PHP79NQ08LT,127</field>
       </fields>
       <libsource lib="CurrentSinkOrSwim-cache" part="MOSFET_N"/>
       <sheetpath names="/Current Control/" tstamps="/54DACF0C/"/>
