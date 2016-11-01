@@ -17,7 +17,7 @@ W203,TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
 R301,0,Resistors_SMD:R_0805,,Value,
 U301,LM2931,SMD_Packages:SOIC-8-N,,LM2931D-R,
 R302,27K,Resistors_SMD:R_0805,,Value,
-R303,21.5K,Resistors_SMD:R_0805,
+R303,34K,Resistors_SMD:R_0805,
 C301,.1,Capacitors_SMD:C_0805,,,Value
 C302,100,Current:PCE3867CT-ND,https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C726.pdf,PCE3867CT-ND,Value
 W302,TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,

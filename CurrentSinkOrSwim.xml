@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim.sch</source>
-    <date>Sunday, September 04, 2016 'PMt' 05:45:02 PM</date>
+    <date>Tuesday, November 01, 2016 'PMt' 04:20:07 PM</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -214,7 +214,7 @@
       <tstamp>54DAF13B</tstamp>
     </comp>
     <comp ref="R303">
-      <value>21.5K</value>
+      <value>34K</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <libsource lib="CurrentSinkOrSwim-cache" part="R-RESCUE-CurrentSinkOrSwim"/>
       <sheetpath names="/Power Regulation/" tstamps="/54DACF20/"/>
@@ -528,17 +528,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/Library/Application Support/kicad/library/device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/Library/Application Support/kicad/library/conn.lib</uri>
     </library>
-    <library logical="CurrentSinkOrSwim">
-      <uri>/Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim.lib</uri>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
     </library>
     <library logical="CurrentSinkOrSwim-cache">
       <uri>/Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim-cache.lib</uri>
+    </library>
+    <library logical="CurrentSinkOrSwim">
+      <uri>/Users/alan/Desktop/github/CurrentSinkOrSwim/CurrentSinkOrSwim.lib</uri>
     </library>
   </libraries>
   <nets>

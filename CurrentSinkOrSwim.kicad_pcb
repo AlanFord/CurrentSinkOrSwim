@@ -3,7 +3,7 @@
   (general
     (links 52)
     (no_connects 0)
-    (area 93.514057 27.4632 160.485943 92.5288)
+    (area 98.374999 28.016999 155.625001 92.125001)
     (thickness 1.6)
     (drawings 8)
     (tracks 147)
@@ -384,7 +384,7 @@
     (fp_text reference Q401 (at -6.223 0.762 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BUK9575 (at 0 3.81) (layer F.SilkS) hide
+    (fp_text value PHP79NQ08LT (at 0 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user S (at 1.397 -1.27) (layer F.SilkS)
@@ -457,7 +457,7 @@
     (fp_text reference R202 (at 0 1.778 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 9K (at 0 2.1 270) (layer F.Fab)
+    (fp_text value 9.09K (at 0 2.1 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 -1) (end 1.6 -1) (layer F.CrtYd) (width 0.05))
@@ -573,7 +573,7 @@
     (fp_text reference R303 (at 0 -2.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 21.6K (at 0 2.1 90) (layer F.Fab)
+    (fp_text value 34K (at 0 2.1 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 -1) (end 1.6 -1) (layer F.CrtYd) (width 0.05))
